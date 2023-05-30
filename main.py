@@ -6,7 +6,7 @@ def loop_inflation_potential(X, alpha):
     return M**4 * (1 + alpha * np.log(X))
 
 # Parâmetros
-alpha = 0.5  # Valor para alpha 
+alpha = -0.5  # Valor para alpha 
 
 # Dados para o gráfico
 X_vals = np.linspace(0.1, 10, 100)  # Intervalo de valores para X
