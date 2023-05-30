@@ -24,5 +24,5 @@ plt.legend()
 # Salvar o gráfico como uma imagem
 plt.savefig('loop_inflation_plot.png')
 
-# Exibindo o gráfico
+# Exibindo o gráfico com png
 plt.show()
